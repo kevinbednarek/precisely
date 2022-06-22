@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>MyUserApp</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyUserApp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1>Welcome to my User Info Application</h1></br>
+<h3>This application is for my interview at Precisely.</h3></br>
+<p>
+    Requirements:</br>
+    </br>
+    -Use spring boot MVC application to create an UI to enter the user's
+    information like first name, last name, DOB etc.</br>
+    -Store the info in a DB.</br>
+    -Search the entered info in the search page.</br>
+    -Search should display the info.</br>
+    Execution:</br>
+    </br>
+    I created an index page with a searchable table. I chose to display all user records by default and the
+    search function would search the records in the table.
+    Another option would be to create custom queries using elastic search.
+    There is a nav bar on top which will bring you to a page where you can add users.
+    If you’d like to edit a user that has already been added,
+    just click on the user id and it will bring you to the appropriate editing page.
+    You can also delete users with the delete link in the delete column at the end of each row.
+    The application is deployed with AWS using Elastic Beanstalk.</p>
+</body>
+</html>

@@ -6,18 +6,13 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
-    //select * from work where firstName = :firstName
-    List<User> findByFirstName(String firstName);
-
-    //select * from work where lastName = :lastName
-    List<User> findByLastName(String lastName);
-
-    //select * from work where dateOfBirth = :dateOfBirth
-    List<User> findByDateOfBirth(Date dateOfBirth);
+    //select * from work where id = :id
+    Optional<User> findById(Long id);
 
 
 }
