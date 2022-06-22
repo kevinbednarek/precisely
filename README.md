@@ -5,8 +5,11 @@ This application is for my interview at Precisely.
 Requirements:
 
 -Use spring boot MVC application to create an UI to enter the user's information like first name, last name, DOB etc.
+
 -Store the info in a DB.
+
 -Search the entered info in the search page.
+
 -Search should display the info.
 
 Execution:
